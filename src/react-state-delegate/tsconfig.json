@@ -1,0 +1,7 @@
+{
+	"extends": "../_shared/tsconfig.json",
+	"include": [ "**/*.ts", "../shared/**/*.ts", "../event-delegate/EventDelegate.ts", "../state-delegate/StateDelegate.ts" ],
+	"compilerOptions": {
+		"outDir": "dist",
+	},
+}

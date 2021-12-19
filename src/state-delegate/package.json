@@ -1,0 +1,27 @@
+{
+	"name": "state-delegate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/state-delegate/StateDelegate.js",
+	"types": "./dist/state-delegate/StateDelegate.d.ts",
+	"devDependencies": {},
+	"files": [
+	  "dist"
+	],
+	"scripts": {
+	  "build": "tsc",
+	  "clearDist": "rm -rf dist"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/SandyGifford/event-delegate.git"
+	},
+	"keywords": [],
+	"author": "Sandy Gifford",
+	"license": "ISC",
+	"bugs": {
+	  "url": "https://github.com/SandyGifford/event-delegate/issues"
+	},
+	"homepage": "https://github.com/SandyGifford/event-delegate#readme"
+  }
+  

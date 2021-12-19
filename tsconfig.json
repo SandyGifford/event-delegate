@@ -1,0 +1,26 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"noUnusedLocals": true,
+		"noImplicitAny": false,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"esModuleInterop": true,
+		"strictNullChecks": true,
+		"alwaysStrict": true,
+		"jsx": "react",
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"allowJs": true,
+		"outDir": "dist",
+		"declaration": true,
+		"composite": true,
+		"rootDir": "./"
+	},
+	"references": [
+		{ "path": "./src/event-delegate/tsconfig.json" },
+		{ "path": "./src/state-delegate/tsconfig.json" },
+		{ "path": "./src/react-state-delegate/tsconfig.json" }
+	]
+}

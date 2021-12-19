@@ -1,0 +1,36 @@
+{
+	"name": "event-delegate-mono-repo",
+	"description": "",
+	"version": "1.0.0",
+	"scripts": {
+		"clearDist": "npm run clearDist --workspaces",
+		"build": "npm run clearDist && npm run build --workspaces",
+		"publish": "npm run build && npm publish -ws",
+		"test": "npm run build && jest --verbose false"
+	},
+	"author": "Sandy Gifford",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SandyGifford/event-delegate.git"
+	},
+	"keywords": [
+		"websocket",
+		"ws"
+	],
+	"bugs": {
+		"url": "https://github.com/SandyGifford/event-delegate/issues"
+	},
+	"homepage": "https://github.com/SandyGifford/event-delegate#readme",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^27.0.3",
+		"jest": "^27.3.1",
+		"ts-jest": "^27.0.7",
+		"typescript": "^4.5.2"
+	},
+	"workspaces": [
+		"src/event-delegate",
+		"src/state-delegate",
+		"src/react-state-delegate"
+	]
+}
