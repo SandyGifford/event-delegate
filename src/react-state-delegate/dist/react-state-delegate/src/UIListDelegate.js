@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UIListDelegateDuplicateIdException = exports.UIListDelegateException = void 0;
+exports.UIListDelegate = exports.UIListDelegateDuplicateIdException = exports.UIListDelegateException = void 0;
 const react_1 = require("react");
 const event_delegate_1 = require("event-delegate");
 const utils_1 = require("./utils");
@@ -210,5 +210,5 @@ class UIListDelegate {
         });
     }
 }
-exports.default = UIListDelegate;
+exports.UIListDelegate = UIListDelegate;
 //# sourceMappingURL=UIListDelegate.js.map

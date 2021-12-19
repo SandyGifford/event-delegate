@@ -18,7 +18,7 @@ export interface UIListDelegateItem<T> {
     isNew?: boolean;
     removeDelegate: EventDelegate<void>;
 }
-export default class UIListDelegate<T> {
+export declare class UIListDelegate<T> {
     private lastId;
     private lastSetterId;
     private options;

@@ -1,6 +1,6 @@
 {
 	"name": "react-state-delegate",
-	"version": "2.1.2",
+	"version": "2.1.3",
 	"description": "",
 	"main": "./dist/react-state-delegate/index.js",
 	"types": "./dist/react-state-delegate/index.d.ts",

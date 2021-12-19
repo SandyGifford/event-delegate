@@ -1,5 +1,5 @@
 import React from "react";
-import {EventDelegate} from "event-delegate";
+import { EventDelegate } from "event-delegate";
 import { useMounted } from "./utils";
 
 export class UIListDelegateException extends Error {}
@@ -29,7 +29,7 @@ interface UIListDelegateSetterData<T> {
 	id: string;
 }
 
-export default class UIListDelegate<T> {
+export class UIListDelegate<T> {
 	private lastId = 0;
 	private lastSetterId = 0;
 	private options: UIListDelegateOptions<T>;
