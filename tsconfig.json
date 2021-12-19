@@ -17,10 +17,5 @@
 		"declaration": true,
 		"composite": true,
 		"rootDir": "./"
-	},
-	"references": [
-		{ "path": "./src/event-delegate/tsconfig.json" },
-		{ "path": "./src/state-delegate/tsconfig.json" },
-		{ "path": "./src/react-state-delegate/tsconfig.json" }
-	]
+	}
 }

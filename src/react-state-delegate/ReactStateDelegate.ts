@@ -1,7 +1,7 @@
 import React from "react";
-import { StateDelegate, MapStateDelegate, EventDelegateListener, MapEventDelegateAllListener } from "../state-delegate/StateDelegate";
+import { StateDelegate, MapStateDelegate, EventDelegateListener, MapEventDelegateAllListener } from "state-delegate";
 
-export * from "../state-delegate/StateDelegate";
+export * from "state-delegate";
 
 export class ReactStateDelegate<T> extends StateDelegate<T> {
 	public useWhileMounted = (listener: EventDelegateListener<T>, dependencies: React.DependencyList = [listener]): void => {

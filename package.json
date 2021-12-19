@@ -1,7 +1,6 @@
 {
 	"name": "event-delegate-mono-repo",
 	"description": "",
-	"version": "1.0.0",
 	"scripts": {
 		"clearDist": "npm run clearDist --workspaces",
 		"build": "npm run clearDist && npm run build --workspaces",

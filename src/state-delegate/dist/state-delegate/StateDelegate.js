@@ -11,9 +11,9 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MapStateDelegate = exports.StateDelegate = void 0;
-const EventDelegate_1 = require("../event-delegate/EventDelegate");
-__exportStar(require("../event-delegate/EventDelegate"), exports);
-class StateDelegate extends EventDelegate_1.EventDelegate {
+const event_delegate_1 = require("event-delegate");
+__exportStar(require("event-delegate"), exports);
+class StateDelegate extends event_delegate_1.EventDelegate {
     constructor(initialValue) {
         super();
         this.initialValue = initialValue;
@@ -31,7 +31,7 @@ class StateDelegate extends EventDelegate_1.EventDelegate {
     }
 }
 exports.StateDelegate = StateDelegate;
-class MapStateDelegate extends EventDelegate_1.MapEventDelegate {
+class MapStateDelegate extends event_delegate_1.MapEventDelegate {
     constructor(initialValue = {}) {
         super();
         this.value = {};

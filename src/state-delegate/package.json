@@ -1,6 +1,6 @@
 {
 	"name": "state-delegate",
-	"version": "1.0.0",
+	"version": "2.1.0",
 	"description": "",
 	"main": "./dist/state-delegate/StateDelegate.js",
 	"types": "./dist/state-delegate/StateDelegate.d.ts",

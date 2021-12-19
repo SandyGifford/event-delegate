@@ -12,9 +12,9 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MapReactStateDelegate = exports.ReactStateDelegate = void 0;
 const react_1 = require("react");
-const StateDelegate_1 = require("../state-delegate/StateDelegate");
-__exportStar(require("../state-delegate/StateDelegate"), exports);
-class ReactStateDelegate extends StateDelegate_1.StateDelegate {
+const state_delegate_1 = require("state-delegate");
+__exportStar(require("state-delegate"), exports);
+class ReactStateDelegate extends state_delegate_1.StateDelegate {
     constructor() {
         super(...arguments);
         this.useWhileMounted = (listener, dependencies = [listener]) => {
@@ -31,7 +31,7 @@ class ReactStateDelegate extends StateDelegate_1.StateDelegate {
     }
 }
 exports.ReactStateDelegate = ReactStateDelegate;
-class MapReactStateDelegate extends StateDelegate_1.MapStateDelegate {
+class MapReactStateDelegate extends state_delegate_1.MapStateDelegate {
     constructor() {
         super(...arguments);
         this.useWhileMounted = (key, listener) => {

@@ -1,6 +1,6 @@
 {
   "name": "event-delegate",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "",
   "main": "./dist/event-delegate/EventDelegate.js",
   "types": "./dist/event-delegate/EventDelegate.d.ts",

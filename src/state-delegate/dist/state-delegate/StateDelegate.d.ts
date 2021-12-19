@@ -1,5 +1,5 @@
-import { EventDelegate, MapEventDelegate } from "../event-delegate/EventDelegate";
-export * from "../event-delegate/EventDelegate";
+import { EventDelegate, MapEventDelegate } from "event-delegate";
+export * from "event-delegate";
 export declare class StateDelegate<T> extends EventDelegate<T> {
     private initialValue;
     get value(): T;
