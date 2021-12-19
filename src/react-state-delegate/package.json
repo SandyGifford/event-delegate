@@ -1,6 +1,6 @@
 {
 	"name": "react-state-delegate",
-	"version": "2.1.5",
+	"version": "2.1.6",
 	"description": "",
 	"main": "./dist/react-state-delegate/index.js",
 	"types": "./dist/react-state-delegate/index.d.ts",
@@ -23,8 +23,7 @@
 	},
 	"homepage": "https://github.com/SandyGifford/event-delegate#readme",
 	"dependencies": {
-		"state-delegate": "^2.1.5",
-		"react": "^17.0.2"
+		"state-delegate": "^2.1.6"
 	},
 	"peerDependencies": {
 		"react": "^17.0.2"

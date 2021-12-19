@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { MapStateDelegate, EventDelegateListener, MapEventDelegateAllListener } from "state-delegate"
 
 export class MapReactStateDelegate<T, K extends string = string> extends MapStateDelegate<T, K> {

@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { StateDelegate, EventDelegateListener } from "state-delegate";
 
 export class ReactStateDelegate<T> extends StateDelegate<T> {

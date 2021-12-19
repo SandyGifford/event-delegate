@@ -1,6 +1,6 @@
 {
 	"name": "state-delegate",
-	"version": "2.1.5",
+	"version": "2.1.6",
 	"description": "",
 	"main": "./dist/state-delegate/index.js",
 	"types": "./dist/state-delegate/index.d.ts",
@@ -23,6 +23,6 @@
 	},
 	"homepage": "https://github.com/SandyGifford/event-delegate#readme",
 	"dependencies": {
-		"event-delegate": "^2.1.5"
+		"event-delegate": "^2.1.6"
 	}
 }

@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useMounted = void 0;
-const react_1 = require("react");
+const React = require("react");
 function useMounted() {
-    const mounted = react_1.default.useRef(false);
-    react_1.default.useEffect(() => {
+    const mounted = React.useRef(false);
+    React.useEffect(() => {
         mounted.current = true;
         return () => { mounted.current = false; };
     }, []);

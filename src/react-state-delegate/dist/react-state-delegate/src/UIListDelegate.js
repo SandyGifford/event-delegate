@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UIListDelegate = exports.UIListDelegateDuplicateIdException = exports.UIListDelegateException = void 0;
-const react_1 = require("react");
+const React = require("react");
 const event_delegate_1 = require("event-delegate");
 const utils_1 = require("./utils");
 class UIListDelegateException extends Error {
@@ -106,8 +106,8 @@ class UIListDelegate {
         };
         this.useState = () => {
             const mountedRef = (0, utils_1.useMounted)();
-            const [items, setItems] = react_1.default.useState(this.items);
-            react_1.default.useEffect(() => {
+            const [items, setItems] = React.useState(this.items);
+            React.useEffect(() => {
                 const id = "" + this.lastSetterId++;
                 const setterData = {
                     id,
