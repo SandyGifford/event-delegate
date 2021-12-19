@@ -1,0 +1,1 @@
+{"version":3,"file":"ReactStateDelegate.d.ts","sourceRoot":"","sources":["../../../src/ReactStateDelegate.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,aAAa,EAAE,qBAAqB,EAAE,MAAM,gBAAgB,CAAC;AAEtE,qBAAa,kBAAkB,CAAC,CAAC,CAAE,SAAQ,aAAa,CAAC,CAAC,CAAC;IACnD,eAAe,aAAc,sBAAsB,CAAC,CAAC,0CAAoD,IAAI,CAKlH;IAEK,QAAQ,QAAO,CAAC,CAIrB;CAEF"}

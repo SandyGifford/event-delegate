@@ -1,9 +1,9 @@
 {
 	"name": "react-state-delegate",
-	"version": "2.1.0",
+	"version": "2.1.2",
 	"description": "",
-	"main": "./dist/react-state-delegate/ReactStateDelegate.js",
-	"types": "./dist/react-state-delegate/ReactStateDelegate.d.ts",
+	"main": "./dist/react-state-delegate/index.js",
+	"types": "./dist/react-state-delegate/index.d.ts",
 	"files": [
 		"dist"
 	],

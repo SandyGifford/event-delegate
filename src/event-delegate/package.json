@@ -1,9 +1,9 @@
 {
   "name": "event-delegate",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "description": "",
-  "main": "./dist/event-delegate/EventDelegate.js",
-  "types": "./dist/event-delegate/EventDelegate.d.ts",
+  "main": "./dist/event-delegate/index.js",
+  "types": "./dist/event-delegate/index.d.ts",
   "devDependencies": {},
   "files": [
     "dist"

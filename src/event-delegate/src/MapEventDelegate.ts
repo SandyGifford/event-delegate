@@ -1,27 +1,6 @@
-export type EventDelegateListener<T> = (val: T) => void;
+import {EventDelegateListener} from "./EventDelegate";
+
 export type MapEventDelegateAllListener<T, K extends string = string> = (key: K, val: T) => void;
-
-export class EventDelegate<T> {
-	protected listeners: EventDelegateListener<T>[] = [];
-
-	constructor() {
-		this.trigger = this.trigger.bind(this);
-	}
-
-	public listen = (listener: EventDelegateListener<T>): void => {
-		const index = this.listeners.indexOf(listener);
-		if (index === -1) this.listeners.push(listener);
-	};
-
-	public stopListen = (listener: EventDelegateListener<T>): void => {
-		const index = this.listeners.indexOf(listener);
-		if (index !== -1) this.listeners.splice(index, 1);
-	};
-
-	public trigger(value: T): void {
-		this.listeners.forEach(l => l(value));
-	}
-}
 
 export class MapEventDelegate<T, K extends string = string> {
 	// for some reason the generic here requires that we cast the object

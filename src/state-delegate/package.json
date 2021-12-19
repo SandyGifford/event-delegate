@@ -1,9 +1,9 @@
 {
 	"name": "state-delegate",
-	"version": "2.1.0",
+	"version": "2.1.2",
 	"description": "",
-	"main": "./dist/state-delegate/StateDelegate.js",
-	"types": "./dist/state-delegate/StateDelegate.d.ts",
+	"main": "./dist/state-delegate/index.js",
+	"types": "./dist/state-delegate/index.d.ts",
 	"devDependencies": {},
 	"files": [
 	  "dist"

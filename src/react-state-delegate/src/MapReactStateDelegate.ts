@@ -1,23 +1,5 @@
 import React from "react";
-import { StateDelegate, MapStateDelegate, EventDelegateListener, MapEventDelegateAllListener } from "state-delegate";
-
-export * from "state-delegate";
-
-export class ReactStateDelegate<T> extends StateDelegate<T> {
-	public useWhileMounted = (listener: EventDelegateListener<T>, dependencies: React.DependencyList = [listener]): void => {
-		React.useEffect(() => {
-			this.listen(listener);
-			return () => this.stopListen(listener);
-		}, dependencies);
-	};
-
-	public useState = (): T => {
-		const [state, setState] = React.useState(this._value);
-		this.useWhileMounted(setState);
-		return state;
-	};
-
-}
+import { MapStateDelegate, EventDelegateListener, MapEventDelegateAllListener } from "state-delegate"
 
 export class MapReactStateDelegate<T, K extends string = string> extends MapStateDelegate<T, K> {
 	public useWhileMounted = (key: K, listener: EventDelegateListener<T>): void => {
